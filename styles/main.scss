@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Bowhead";
+  src: url("../fonts/BOWHEAD.TTF");
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  color: #5a7e2c;
+
+  .modal-title {
+    font-family: "Bowhead";
+    font-size: 64px;
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+  .modal-footer {
+    .btn-modal {
+      background-color: #5a7e2c;
+      color: white;
+    }
+  }
+}
+
+p {
+  font-size: 14px;
+}
+
+header {
+  min-height: 768px;
+  background-image: url("../images/background_1.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 10px 0 170px;
+
+  .walimatulurs {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 20px;
+    margin-top: 130px;
+  }
+
+  .akad {
+    font-family: "Bowhead";
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .section-countdown .countdown-detail .time {
+    font-size: 12px;
+  }
+}
+
+.section-mempelai {
+  min-height: 768px;
+  background-image: url("../images/background_2.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 210px;
+
+  .mempelai-header .bismillah {
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-family: "Bowhead";
+    font-size: 80px;
+  }
+
+  .ayat {
+    font-style: italic;
+  }
+}
+
+.section-penutup {
+  min-height: 768px;
+  background-image: url("../images/background_3.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 10px;
+
+  .kata-kata {
+    .salam {
+      font-style: italic;
+    }
+
+    .tempat {
+      margin-top: -20px;
+      font-family: "Bowhead";
+      font-size: 50px;
+    }
+    .alamat {
+      margin-top: -10px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .rs {
+      margin-top: -36px;
+    }
+  }
+}
+
+.section-footer {
+  background-image: url("../images/background_4.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 200px;
+}
