@@ -30,8 +30,8 @@
         </div>
         <div class="modal-body">
           Yth. <span id="tamu"></span>
-          <br />
-          <br />
+          <br /><span id="jabatan"></span>
+          <br /><br>ss
           di Tempat
           <br />
         </div>
@@ -201,9 +201,13 @@
 
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
-      const dear_ = urlParams.get('dear')
+      const dear_ = urlParams.get('dear');
+      const jabatan = urlParams.get('jabatan');
       // console.log(dear_);
       $('#tamu').html(dear_);
+      if (jabatan != '') {
+        $('#jabatan').html(jabatan);
+      }
     });
   </script>
   <script>
