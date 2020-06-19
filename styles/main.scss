@@ -110,4 +110,21 @@ header {
   background-size: cover;
   background-position: center bottom;
   padding-bottom: 200px;
+  margin-top: 50px;
+
+  .mymaps {
+    margin-bottom: 70px;
+    .tmymaps{
+      font-family: 'Bowhead';
+      font-size: 60px;
+    }
+  }
+
+  .cashless{
+    margin-top: 40px;
+    .tcashless{
+      font-family: 'Bowhead';
+      font-size: 60px;
+    }
+  }
 }

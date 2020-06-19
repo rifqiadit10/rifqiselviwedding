@@ -108,5 +108,24 @@ header .section-countdown .countdown-detail .time {
   background-size: cover;
   background-position: center bottom;
   padding-bottom: 200px;
+  margin-top: 50px;
+}
+
+.section-footer .mymaps {
+  margin-bottom: 70px;
+}
+
+.section-footer .mymaps .tmymaps {
+  font-family: 'Bowhead';
+  font-size: 60px;
+}
+
+.section-footer .cashless {
+  margin-top: 40px;
+}
+
+.section-footer .cashless .tcashless {
+  font-family: 'Bowhead';
+  font-size: 60px;
 }
 /*# sourceMappingURL=main.css.map */
